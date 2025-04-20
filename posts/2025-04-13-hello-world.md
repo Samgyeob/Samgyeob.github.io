@@ -1,7 +1,7 @@
 ---
-title: "내 블로그 시작하기"
+title: "Hello world"
 date: 2024-04-11
-categories: [블로그]
+categories: [Blog]
 tags: [시작, GitHub 블로그, Jekyll, intro]
 ---
 
