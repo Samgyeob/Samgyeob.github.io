@@ -328,3 +328,9 @@ defaults:
       comments: # true
       share: true
       related: true
+show_sidebar: true
+sidebar:
+  nav: "main"
+collections:
+  posts:
+    output: true
