@@ -1,15 +1,15 @@
 ---
-title: "React의 Props와 State?"
+title: "Props and State"
 date: 2025-04-26
-categories: [매일메일]
-tags: [GitHub 블로그, 리액트의 Props와 State]
+categories: [Blog]
+tags: [GitHub, React, Props, State]
 ---
 
-배운 내용:
+Here are the key points:
 
-* [Props(Properties): 부모 컴포넌트가 자식 컴포넌트에게 전달하는 데이터, 자식 컴포넌트는 받은 props를 바꿀 수 없다]
-* [State: 컴포넌트 자신이 관리하는 데이터, 컴포넌트 내부에서 setState()라는 특별한 함수를 사용하여 state 값을 변경할 수 있다. state가 변경되면 React는 해당 컴포넌트를 다시 화면에 그려준다 (리렌더링]
-* [자식 컴포넌트는 직접적으로 부모의 state를 변경할 수 없다. 대신, 부모 컴포넌트에서 함수를 props로 내려주고, 자식 컴포넌트는 특정 이벤트 발생 시 이 함수를 호출하면서 데이터를 부모에게 전달하는 방식을 사용한다]
+* [Props(Properties): Data passed from parent component to child component, child component cannot change received props]
+* [State: Data managed by the component itself, you can change the state value using a special function called setState() inside the component. When the state changes, React redraws the component on the screen (re-rendering).]
+* [Child components cannot directly change the parent's state. Instead, the parent component passes a function as props, and the child component passes data to the parent by calling this function when a specific event occurs.]
 
-느낀점:
-[부모님이 그리워졌습니다.]
+What I felt:
+[I miss my parents.]

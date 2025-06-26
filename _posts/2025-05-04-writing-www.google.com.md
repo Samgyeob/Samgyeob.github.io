@@ -1,18 +1,17 @@
 ---
-title: "인터넷 창에 www.google.com을 입력하면 벌어지는 일"
+title: "What happens when we type www.google.com into your internet browser?"
 date: 2025-05-04
-categories: [매일메일]
-tags: [GitHub 블로그, www.google.com]
+categories: [Blog]
+tags: [GitHub, www.google.com]
 ---
 
-배운 내용:
+Here are the key points:
 
-* [1단계: 주소 찾기 (DNS 조회)]
-* [2단계: 연결 통로 만들기 (TCP 연결 설정)]
-* [3단계: 편지 보내기 (HTTP 요청)]
-* [4단계: 답장 받기 (서버 응답)]
-* [5단계: 답장 읽고 해석하기 (렌더링)]
-* [C++은 웹 브라우저의 핵심 기능인 웹 페이지 요청 및 렌더링을 직접 수행하지는 않지만, 네트워크 통신을 통해 데이터를 주고받고, GUI 라이브러리를 사용하여 화면에 정보를 표시하는 능력을 가지고 있음]
+* [Step 1: Find the address (DNS lookup)]
+* [Step 2: Create a connection (establish a TCP connection)]
+* [Step 3: Sending a letter (HTTP request)]
+* [Step 4: Get a response (server response)]
+* [Step 5: Read and interpret the response (rendering)]
 
-느낀점:
-[복잡하네요.]
+What I felt:
+[It's complex.]

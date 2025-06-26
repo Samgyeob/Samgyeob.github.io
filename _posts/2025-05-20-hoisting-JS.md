@@ -1,16 +1,15 @@
 ---
-title: "JS의 Hoisting"
+title: "Hoisting"
 date: 2025-05-20
-categories: [매일메일]
-tags: [GitHub 블로그, JS]
+categories: [Blog]
+tags: [GitHub, JS]
 ---
 
-배운 내용:
+Here are the key points:
 
-* [Hoisting: JavaScript 코드에서 변수나 함수 선언이 코드의 맨 위로 끌어올려지는 것처럼 동작]
-* [var로 선언한 변수는 호이스팅되어서 코드 맨 위에서 "나 이런 변수 있어!"라고 알려주지만, 그 변수에 실제로 값을 넣어주는 건(할당) 원래 위치에서 실행됨-> 그래서 var 변수에 값을 할당하기 전에 사용하려고 하면 undefined (아직 값이 없어!)가 나옴]
-* [let과 const 변수는 값이 할당되기 전까지는 사용하려고 하면 에러(ReferenceError)가 발생]
-* [C++에서는 변수나 함수를 사용하려면 반드시 사용하기 전에 선언(declare)해야 합니다. 만약 선언 없이 변수나 함수를 사용하려고 하면 컴파일 에러가 발생]
+* [Hoisting: In JavaScript code, it behaves as if variable or function declarations are hoisted to the top of the code.]
+* [Variables declared with var are hoisted, so they tell you at the top of the code, "I have this variable!", but actually assigning a value to that variable (assignment) is executed at the original location -> so if you try to use a var variable before assigning a value to it, you get undefined (no value yet!)]
+* [let and const variables will cause an error (ReferenceError) if you try to use them until a value is assigned to them.]
 
-느낀점:
-[왜 할당 전에 사용하는 걸까요]
+What I felt:
+[Why use it before allocation?]
